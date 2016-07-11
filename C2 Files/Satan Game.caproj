@@ -2,9 +2,9 @@
 <c2project>
     <name>Satan Game</name>
     <description></description>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <author>0tter $quad</author>
-    <author-email></author-email>
+    <author-email>ottersquad62845@gmail.com</author-email>
     <author-website>http://ottersquad.github.io</author-website>
     <app-id></app-id>
     <unique-id>1jvcp3i4x4gj6</unique-id>
@@ -49,6 +49,86 @@
     </configuration-settings>
     <object-folder>
         <object-folder name="Touch Controls">
+            <object-folder name="Pause">
+                <object-type name="PauseButtonMenu" sid="204692938588976">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8461332436095785" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                        <animation framecount="1" loop="0" name="Debug" pingpong="0" repeatcount="1" repeatto="0" sid="2009823464025405" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                        <animation framecount="1" loop="0" name="Touched" pingpong="0" repeatcount="1" repeatto="0" sid="8254384117999203" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="PauseDimCurtain" sid="3249876062121386">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4005430549650692" speed="5">
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="PauseButtonTouchControlsToggle" sid="6565004868079444">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7838377927935149" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\drambique\Downloads\boxlong.png" />
+                        </animation>
+                        <animation framecount="1" loop="0" name="Debug" pingpong="0" repeatcount="1" repeatto="0" sid="90113856498384" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                        <animation framecount="1" loop="0" name="Touched" pingpong="0" repeatcount="1" repeatto="0" sid="9800444897736251" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\drambique\Downloads\d.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="PauseButtonMainMenu" sid="365549799267414">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9717824838536503" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\drambique\Downloads\boxlong.png" />
+                        </animation>
+                        <animation framecount="1" loop="0" name="Debug" pingpong="0" repeatcount="1" repeatto="0" sid="1736369478678978" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                        <animation framecount="1" loop="0" name="Touched" pingpong="0" repeatcount="1" repeatto="0" sid="3657493221725555" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\drambique\Downloads\b.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="PauseButtonRestartLevel" sid="1441607209169576">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5815753150273143" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\drambique\Downloads\boxlong.png" />
+                        </animation>
+                        <animation framecount="1" loop="0" name="Debug" pingpong="0" repeatcount="1" repeatto="0" sid="978967371233744" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                        <animation framecount="1" loop="0" name="Touched" pingpong="0" repeatcount="1" repeatto="0" sid="6275691546199616" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\drambique\Downloads\c.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="PauseButtonHelp" sid="7635028314790231">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="247550890061617" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\drambique\Downloads\boxlong.png" />
+                        </animation>
+                        <animation framecount="1" loop="0" name="Debug" pingpong="0" repeatcount="1" repeatto="0" sid="2573049413219037" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                        <animation framecount="1" loop="0" name="Touched" pingpong="0" repeatcount="1" repeatto="0" sid="1829010044842861" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\drambique\Downloads\a.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
             <object-type name="Touch" sid="7535139937911596">
                 <plugin id="Touch" />
             </object-type>
@@ -105,22 +185,6 @@
                     </animation>
                     <animation framecount="1" loop="0" name="Touched" pingpong="0" repeatcount="1" repeatto="0" sid="2116433455666191" speed="5">
                         <frame duration="1" hotspotX="0.504" hotspotY="0.504" />
-                    </animation>
-                </animation-folder>
-            </object-type>
-        </object-folder>
-        <object-folder name="Pause">
-            <object-type name="PauseButton" sid="204692938588976">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8461332436095785" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
-                    <animation framecount="1" loop="0" name="Debug" pingpong="0" repeatcount="1" repeatto="0" sid="2009823464025405" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
-                    <animation framecount="1" loop="0" name="Touched" pingpong="0" repeatcount="1" repeatto="0" sid="8254384117999203" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
             </object-type>

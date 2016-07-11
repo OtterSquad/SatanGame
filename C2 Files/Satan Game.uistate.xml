@@ -22,19 +22,24 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1" />
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="0" path="object-folder/Touch Controls/" />
-        <folder expanded="1" path="object-folder/Pause/" />
+        <folder expanded="1" path="object-folder/Touch Controls/" />
+        <folder expanded="1" path="object-folder/Touch Controls/Pause/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/PauseButtonMenu/" />
+        <folder expanded="1" path="animation-folder/PauseDimCurtain/" />
+        <folder expanded="1" path="animation-folder/PauseButtonTouchControlsToggle/" />
+        <folder expanded="1" path="animation-folder/PauseButtonMainMenu/" />
+        <folder expanded="1" path="animation-folder/PauseButtonRestartLevel/" />
+        <folder expanded="1" path="animation-folder/PauseButtonHelp/" />
         <folder expanded="1" path="animation-folder/TouchLeft/" />
         <folder expanded="1" path="animation-folder/TouchRight/" />
         <folder expanded="1" path="animation-folder/TouchAttack/" />
         <folder expanded="1" path="animation-folder/TouchJump/" />
-        <folder expanded="1" path="animation-folder/PauseButton/" />
         <folder expanded="1" path="animation-folder/SolidTiles/" />
         <folder expanded="1" path="animation-folder/Satan/" />
         <folder expanded="1" path="animation-folder/CameraFollow/" />
