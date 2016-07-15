@@ -10,8 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Layout 1</layout>
-        <event-sheet active="1" order="1">Event sheet 1</event-sheet>
+        <layout active="1" order="0">Level 1</layout>
+        <event-sheet order="1">Game Logic Event Sheet</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -22,27 +22,32 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1" />
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="1" path="object-folder/Touch Controls/" />
-        <folder expanded="1" path="object-folder/Touch Controls/Pause/" />
+        <folder expanded="0" path="object-folder/Touch Controls/" />
+        <folder expanded="0" path="object-folder/Pause/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="1" path="file-folder/" />
+        <folder expanded="0" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/TouchLeft/" />
+        <folder expanded="1" path="animation-folder/TouchRight/" />
+        <folder expanded="1" path="animation-folder/TouchAttack/" />
+        <folder expanded="1" path="animation-folder/TouchJump/" />
         <folder expanded="1" path="animation-folder/PauseButtonMenu/" />
         <folder expanded="1" path="animation-folder/PauseDimCurtain/" />
         <folder expanded="1" path="animation-folder/PauseButtonTouchControlsToggle/" />
         <folder expanded="1" path="animation-folder/PauseButtonMainMenu/" />
         <folder expanded="1" path="animation-folder/PauseButtonRestartLevel/" />
         <folder expanded="1" path="animation-folder/PauseButtonHelp/" />
-        <folder expanded="1" path="animation-folder/TouchLeft/" />
-        <folder expanded="1" path="animation-folder/TouchRight/" />
-        <folder expanded="1" path="animation-folder/TouchAttack/" />
-        <folder expanded="1" path="animation-folder/TouchJump/" />
+        <folder expanded="1" path="animation-folder/PauseSelector/" />
+        <folder expanded="1" path="animation-folder/PauseHelpWindow/" />
         <folder expanded="1" path="animation-folder/SolidTiles/" />
         <folder expanded="1" path="animation-folder/Satan/" />
         <folder expanded="1" path="animation-folder/CameraFollow/" />
         <folder expanded="1" path="animation-folder/SatanCostume/" />
+        <folder expanded="1" path="animation-folder/TransitionCurtain/" />
+        <folder expanded="1" path="animation-folder/HealthBar/" />
+        <folder expanded="1" path="animation-folder/Spikes/" />
     </folders-expanded>
 </c2uistate>
